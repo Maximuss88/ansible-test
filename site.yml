@@ -105,5 +105,5 @@
       become: true
       template:
         src: templates/kib.sh.j2
-        dest: /etc/profile.d/elk.sh
+        dest: /etc/profile.d/kib.sh
       tags: kibana
