@@ -1,17 +1,8 @@
 ---
 all:
   hosts:
-    el-instance:
-      ansible_host: 51.250.23.44
+    r-instance:
+      ansible_host: 51.250.22.89
       ansible_connection: ssh
       ansible_user: max
-      
-    k-instance:
-      ansible_host: 51.250.28.246
-      ansible_connection: ssh
-      ansible_user: max
-      
-    f-instance:
-      ansible_host: 51.250.20.92
-      ansible_connection: ssh
-      ansible_user: max
+
